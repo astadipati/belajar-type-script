@@ -48,10 +48,22 @@ function returnMyName() {
 console.log(returnMyName());
 // void
 function sayHello() {
-    console.log(sayHello());
+    // console.log(sayHello());
 }
-// argument
+// argument types
 function multiply(value1, value2) {
     return value1 * value2;
 }
-console.log(multiply(2, 5));
+// console.log(multiply(2,5));
+// function types
+var myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(2, 3));
+// objects
+var userData = {
+    name: "rama",
+    age: 22
+};
+console.log(userData);

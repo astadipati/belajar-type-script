@@ -55,12 +55,25 @@ console.log(returnMyName());
 
 // void
 function sayHello():void{ //gak ada yang dikembalikan
-    console.log(sayHello());
+    // console.log(sayHello());
 }
 
-// argument
+// argument types
 function multiply(value1:number, value2:number){
     return value1 * value2;
 }
-console.log(multiply(2,5));
+// console.log(multiply(2,5));
 
+// function types
+let myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(2,3));
+
+// objects
+let userData: {name: string, age: number} = {
+    name: "rama",
+    age: 22
+};
+console.log(userData);
