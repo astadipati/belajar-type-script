@@ -29,4 +29,15 @@ hobi = [100];
 // urutan itu penting & jumlah array juga, lebihnya akan error
 let alamat: [string,number] =["tuban jatim",21];
 alamat = ["latsari",11];
-console.log(alamat[0]);
+// console.log(alamat[0]);
+
+// enum "expresive" sesuatu, jika tanpa types maka default otomatis array,
+// untuk memudahkan beri types
+enum Warna {
+    Hijau,
+    Kuning = 100,
+    Merah //default akan bernilai 101 lanjutan dari types kuning
+}
+let myColor : Warna = Warna.Kuning;
+console.log(myColor);
+

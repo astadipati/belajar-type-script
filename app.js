@@ -25,4 +25,14 @@ hobi = [100];
 // urutan itu penting & jumlah array juga, lebihnya akan error
 var alamat = ["tuban jatim", 21];
 alamat = ["latsari", 11];
-console.log(alamat[0]);
+// console.log(alamat[0]);
+// enum "expresive" sesuatu, jika tanpa types maka default otomatis array,
+// untuk memudahkan beri types
+var Warna;
+(function (Warna) {
+    Warna[Warna["Hijau"] = 0] = "Hijau";
+    Warna[Warna["Kuning"] = 100] = "Kuning";
+    Warna[Warna["Merah"] = 101] = "Merah"; //default akan bernilai 101 lanjutan dari types kuning
+})(Warna || (Warna = {}));
+var myColor = Warna.Kuning;
+console.log(myColor);
