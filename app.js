@@ -1,2 +1,6 @@
 "use strict";
-console.log("It works");
+// string
+var myName = 'rama';
+// re-assign string
+myName = 'edo';
+console.log(myName);
