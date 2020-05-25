@@ -9,4 +9,9 @@ var myAge = 27;
 // boolean
 var jenisK = false;
 jenisK = true;
-console.log(jenisK);
+// console.log(jenisK);
+// assign types
+var umur;
+umur = 25;
+// umur ='27'; bukan string
+console.log(umur);
