@@ -20,4 +20,9 @@ umur = 25;
 // console.log(hobi[1]);
 var hobi = ["masak", "mancing"];
 hobi = [100];
-console.log(hobi);
+// console.log(hobi);//return array [100]
+// tuples
+// urutan itu penting & jumlah array juga, lebihnya akan error
+var alamat = ["tuban jatim", 21];
+alamat = ["latsari", 11];
+console.log(alamat[0]);
