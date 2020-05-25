@@ -35,4 +35,9 @@ var Warna;
     Warna[Warna["Merah"] = 101] = "Merah"; //default akan bernilai 101 lanjutan dari types kuning
 })(Warna || (Warna = {}));
 var myColor = Warna.Kuning;
-console.log(myColor);
+// console.log(myColor);
+// any the most flexible types
+var car = "bmw";
+console.log(car);
+car = { brand: "bwm", series: 3 };
+console.log(car);

@@ -39,5 +39,11 @@ enum Warna {
     Merah //default akan bernilai 101 lanjutan dari types kuning
 }
 let myColor : Warna = Warna.Kuning;
-console.log(myColor);
+// console.log(myColor);
+
+// any the most flexible types
+let car:any ="bmw";
+console.log(car);
+car = {brand:"bwm", series: 3};
+console.log(car);
 
