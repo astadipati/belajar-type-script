@@ -14,4 +14,10 @@ jenisK = true;
 var umur;
 umur = 25;
 // umur ='27'; bukan string
-console.log(umur);
+// console.log(umur);
+// array
+// let hobi  = ["masak","mancing"];
+// console.log(hobi[1]);
+var hobi = ["masak", "mancing"];
+hobi = [100];
+console.log(hobi);
