@@ -60,10 +60,23 @@ var myMultiply;
 myMultiply = sayHello;
 myMultiply();
 myMultiply = multiply;
-console.log(myMultiply(2, 3));
+// console.log(myMultiply(2,3));
 // objects
 var userData = {
     name: "rama",
     age: 22
 };
-console.log(userData);
+// console.log(userData);
+// complex
+var complex = {
+    data: [100, 3.99, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [100, 3.99, 300],
+    output: function (all) {
+        return this.data;
+    }
+};

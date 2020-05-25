@@ -69,11 +69,29 @@ let myMultiply;
 myMultiply = sayHello;
 myMultiply();
 myMultiply = multiply;
-console.log(myMultiply(2,3));
+// console.log(myMultiply(2,3));
 
 // objects
 let userData: {name: string, age: number} = {
     name: "rama",
     age: 22
 };
-console.log(userData);
+// console.log(userData);
+
+// complex
+let complex: {data: any[], output: (all: boolean) => number[]}={
+    data: [100,3.99,10],
+    output: function(all:boolean) :number[]{
+        return this.data;
+    }
+};
+
+type Complex = {data: number[], output: (all:boolean) => number[]};
+
+let complex2: Complex = {
+    data: [100, 3.99, 300],
+
+    output: function (all: boolean): number[]{
+        return this.data;
+    }
+}
