@@ -43,7 +43,24 @@ let myColor : Warna = Warna.Kuning;
 
 // any the most flexible types
 let car:any ="bmw";
-console.log(car);
+// console.log(car);
 car = {brand:"bwm", series: 3};
-console.log(car);
+// console.log(car);
+
+// function
+function returnMyName():string{ //types berdasarkan return, jika string harus string jika number harus number
+    return myName;
+}
+console.log(returnMyName());
+
+// void
+function sayHello():void{ //gak ada yang dikembalikan
+    console.log(sayHello());
+}
+
+// argument
+function multiply(value1:number, value2:number){
+    return value1 * value2;
+}
+console.log(multiply(2,5));
 

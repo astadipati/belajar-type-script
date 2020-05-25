@@ -38,6 +38,20 @@ var myColor = Warna.Kuning;
 // console.log(myColor);
 // any the most flexible types
 var car = "bmw";
-console.log(car);
+// console.log(car);
 car = { brand: "bwm", series: 3 };
-console.log(car);
+// console.log(car);
+// function
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
+// void
+function sayHello() {
+    console.log(sayHello());
+}
+// argument
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(2, 5));
